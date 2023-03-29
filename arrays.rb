@@ -25,3 +25,7 @@ puts debts_paid
 puts friends.length 
 puts friends.empty?
 puts friends.include?("Paul")
+
+# An index position is the first starting number in an array or other list. 
+# The index position starts with the number 0 in most programming languages
+# ex: `puts friends[0]` would should the first name (Jennifer) in the friends Array.
