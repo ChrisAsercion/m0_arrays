@@ -15,6 +15,11 @@ puts "#{a}"
 
 #This array method will add new elements to the beginning of the array.
 debts_paid.unshift(false, false, false)
-
-puts scrabble_wins
 puts debts_paid
+
+#I found that these methods are all query methods that I thought would be useful to learn
+#.length will show how many elements in a array, .empty? will give a boolean answer if the array has anything,
+# and .include?() will check the arrray if there is an element stored under that name
+puts friends.length 
+puts friends.empty?
+puts friends.include?("Paul")
